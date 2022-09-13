@@ -10,7 +10,7 @@
   <li><a href="http://example.com/">example</a></li>
   <li><a href="https://example.com/">example</a></li>
   <li><a href="ftp://example.com/document/file.txt">Cсылка на файл на сервере FTP без авторизации</a></li>
-  <li><a href="ftp://login:password@example.com/document/file.txt"/>Cсылка на файл на сервере FTP с авторизацией</a></li>
+  <li><a href="ftp://login:password@example.com/document/file.txt">Cсылка на файл на сервере FTP с авторизацией</a></li>
   <li><a href="http://example.com#fragment">Ссылка на фрагмент страницы некоторого сайта</a></li>
   <li><a id="fragment"></a><a href="#fragment">Cсылка на фрагмент текущей страницы</a></li>
   <li><a href="http://example.com?page=1&perpage=15">Cсылка с двумя параметрами в URL</a></li>
@@ -47,26 +47,25 @@
     <form action="exemple" method="POST">
     <label>
         Имя:<br/>
-    <input name="field-name-1" placeholder="Введите имя"></input>
+    <input name="field-name-1" value="Введите имя">
     </label><br/>
     <label>
         email:<br/>
-    <input name="field-email" type="email" placeholder="Введите email"></input>
+    <input name="field-email" type="email" placeholder="Введите email">
     </label><br/>
     <label>
         Дата рождения:<br/>
-    <input name="field-date" type="date" placeholder="Введите дату рождения"></input>
+    <input name="field-date" type="date" placeholder="Введите дату рождения">
     </label><br/>
         Пол:<br/>
-    <label><input type="radio" checked="checked" name="radio-group-1"> Женщина </input> </label> 
-    <label><input type="radio" name="radio-group-1"> Мужчина </input> 
+    <label><input type="radio" checked="checked" name="radio-group-1"> Женщина </label> 
+    <label><input type="radio" name="radio-group-1"> Мужчина  
     </label><br/>
         Количество конечностей :<br/>
     <label><input type="radio" checked="checked" name="radio-group-1"> 1 </input> </label> 
     <label><input type="radio" name="radio-group-1"> 2 </input> </label> 
     <label><input type="radio" name="radio-group-1"> 3 </input> </label> 
-    <label><input type="radio" name="radio-group-1"> 4 </input> </label> 
-    </label><br/>
+    <label><input type="radio" name="radio-group-1"> 4 </input> </label><br/>
     <label>
         Сверхспособности:<br/>
     <select name="field-name-2" multiple="multiple">
