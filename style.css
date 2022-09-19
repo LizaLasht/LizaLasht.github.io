@@ -1,8 +1,8 @@
 header{
     width: 100%;
     height: 110px;
-    background-color:brown;
-    background-image: url(https://yandex.ru/images/search?from=tabbar&text=%D0%BA%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%B5%D0%B2%D1%8B%D0%B9%20wstmb&pos=15&img_url=http%3A%2F%2Figolochkin.ru%2Fimages%2Fbig%2Fbarhat-koricnevyj-083-ig030193_2.jpg&rpt=simage&lr=35);
+    background-color:#d49368;
+    background-image: url(https://mnogoplitki.com/upload/iblock/b88/876ba3f80ff48ac917e3768717bb2a1a.jpg);
 }
 title{
     font-size: 50px;
@@ -12,10 +12,12 @@ title{
 }
     
 #logo {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     float: left;
+    margin-right: 10px;
 }
+
 nav{
     text-align: center; /* пункты и текст горизонтально по центру */
     background: #c9b2c9;
