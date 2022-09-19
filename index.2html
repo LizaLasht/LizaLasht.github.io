@@ -4,6 +4,24 @@
   <title>Задание 1</title>
 </head>
   <body>
+  <div id="block-body">
+  <header>
+  <div class="logo">
+  <a href="index.2html">
+  <span class="use"> USE</span>-<span class="web">WEB</span>.ru
+  </a>
+  </div>
+  
+  <div class="top menu">
+  <ul>
+  <li><a class="clickMenu" href="#">Гиперссылки</a></li>
+  <li><a href="#">Таблица</a></li>
+  <li><a href="#">Форма</a></li>
+  </ul>
+  <div>
+  </header>
+  <div id="block-content"></div>
+  </div>
     <h1>Задание 1</h1>
     <h2>Cписок гиперссылок</h2>
 <ol>
