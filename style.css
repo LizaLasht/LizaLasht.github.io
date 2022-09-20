@@ -49,9 +49,10 @@
 	    margin-rigth:5px;
 	}
 	table { 
+	   width:50%;
+	   text-align: center;
   	   border-collapse:collapse;
-           width:50%;
-           margin-bottom: 20px;
+           margin-bottom: 30px;
 	}
 	td, th, tr {
     	  border: 2px gray;
