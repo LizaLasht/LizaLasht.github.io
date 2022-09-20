@@ -63,6 +63,7 @@
  	}
 	th{
     	   background-color:#301c0c;
+	   color:white;	
 	}
 	tr:nth-child(2n-1){
     	   background-color: #f2c8aa;
@@ -81,7 +82,7 @@
 	
 	
 	.footer{
-	    line-height:100px;
+	    line-height:120px;
 	    font-size: 20 px;
 	    background: #301c0c;
 	    color: white;
