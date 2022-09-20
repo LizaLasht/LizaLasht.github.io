@@ -10,26 +10,6 @@ title{
     padding-top: 0;
     float: left;
 }
-ul{
-    list-style: none;
-    marin:0;
-    padding:20px;
-}
-a{
-    
-    color:#293133;
-    text-decoracion: none;
-}
-a:hover{
-    color:#FFCF48;
-    text-decoration: none;
-}
-
-li{
-    
-    float: left;
-    margin-rigth:5px;
-}
 
 #logo {
     float: left;
