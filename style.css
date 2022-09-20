@@ -62,9 +62,7 @@ div{
 
 .footer{
     padding:60 px;
-    position: absolute;
-    left:0;
-    bottom:0;
+     font-size: 30px;
     background: #8adba2;
     color: white;
 }
