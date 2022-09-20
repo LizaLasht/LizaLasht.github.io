@@ -10,12 +10,31 @@ title{
     padding-top: 0;
     float: left;
 }
-    
+ul{
+    list-style: none;
+    marin:0;
+    padding:20px;
+}
+a{
+    font-size:40px;
+    padding:20px;
+    color:#293133;
+    text-decoracion: none;
+}
+a:hover{
+    color:#FFCF48;
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+}
+
 #logo {
-    width: 100px;
-    height: 100px;
     float: left;
-    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
 }
 
 nav{
@@ -23,22 +42,7 @@ nav{
     background: #c9b2c9;
     padding-top: 0%;
 }
-ul#menu li{
-    display:inline-block; 
-    text-align: center;
-}
-#menu, #menu li {
-    margin: 0; /* убрать внутренние отступы */
-    padding: 0; /* убрать внешние отступы */
-}
-#menu a {
-    padding: 10px 25px; /* задаем внутренние отступы */
-    color: #fff; /* цвет текста */
-    text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
-}
-#menu a:hover {
-    background: #e6b8f0; /* фон пунктов при наведении */
-}
+
 
 div{
    width: 960px;
@@ -47,9 +51,7 @@ div{
    margin-right: auto;
 }
 
-.content {
-    padding-bottom: 90px;
-}
+
 .footer{
     position: absolute;
     left:0;
