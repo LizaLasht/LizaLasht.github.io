@@ -28,12 +28,12 @@
 	    background: #301c0c;
 	    margin: 0 auto; 
 	    padding-top:0%;
-	text-align: center;
+	
 	}
 
 	ul#menu li{
 	 display:inline-block;
-	 
+	 text-align: center;
 	}
 	 #menu ul{
 	    list-style: none;
