@@ -1,20 +1,20 @@
 	body {
 	    background-color:deaa88;
 	}
-	header{
-	    width: 100%;
-	    height: 140px;
-		background-color: blue		
-	    background-image: url(https://yandex.ru/images/search?from=tabbar&nomisspell=1&text=%D1%84%D0%BE%D0%BD%20%D0%B4%D0%BB%D1%8F%20html&source=related-1&pos=16&rpt=simage&img_url=http%3A%2F%2Fkartinkin.net%2Fuploads%2Fposts%2F2021-07%2F1626302376_40-kartinkin-com-p-fon-dlya-tablitsi-krasivo-42.jpg&lr=35&rlt_url=https%3A%2F%2Fsun9-16.userapi.com%2Fimpg%2F3CRwZwu9OPNRGVJzpdlZY0ix_EEOx8Iz0sjgow%2F54FxuERhTdk.jpg%3Fsize%3D1024x768%26quality%3D96%26sign%3Daa6c2078de51f0d512e2fb61f0ca736e%26type%3Dalbum&ogl_url=http%3A%2F%2Fkartinkin.net%2Fuploads%2Fposts%2F2021-07%2F1626302376_40-kartinkin-com-p-fon-dlya-tablitsi-krasivo-42.jpg);
-	}
-	name{
-	    font-size: 30px;
-	    font-family: arial;
-	    padding-top: 0;
-	    text-align:center;
-	    float: left;
-	    color: black;
-	}
+header{
+    width: 100%;
+    height: 110px;
+    background-color:#d8bfd8;
+    background-image: url(https://abrakadabra.fun/uploads/posts/2022-02/1645600755_1-abrakadabra-fun-p-fon-goluboi-gradient-nezhnii-2.jpg);
+}
+.name{
+    font-size: 50px;
+    font-family: serif ;
+    padding-top: 0;
+    text-align:center;
+    line-height:110px;
+    float: left;
+}
 	
 	#monoLiza {
 	    width: 200px;
