@@ -1,12 +1,17 @@
+
 header{
-    font-size: 50;
     width: 100%;
-    height: 120px;
-    background-image: url(https://mnogoplitki.com/upload/iblock/b88/876ba3f80ff48ac917e3768717bb2a1a.jpg);
-    font-family: arial;
+    height: 110px;
+    background-color:#d8bfd8;
+    background-image: url(https://abrakadabra.fun/uploads/posts/2022-02/1645600755_1-abrakadabra-fun-p-fon-goluboi-gradient-nezhnii-2.jpg);
+}
+.title{
+    font-size: 50px;
+    font-family: serif ;
     padding-top: 0;
+    text-align:center;
+    line-height:110px;
     float: left;
-    color: black;
 }
 
 nav{
