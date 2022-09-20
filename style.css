@@ -11,6 +11,29 @@ title{
     float: left;
 }
 
+#menu ul{
+    list-style: none;
+    marin:0;
+    padding:20px;
+}
+#menu a{
+    font-size:40px;
+    padding:20px;
+    color:#293133;
+    text-decoracion: none;
+}
+#menu a:hover{
+    color:#FFCF48;
+    text-decoration: none;
+}
+
+#menu li{
+    
+    float: left;
+    margin-rigth:5px;
+}
+
+
 #logo {
     float: left;
     width: 70px;
@@ -34,6 +57,7 @@ div{
 
 
 .footer{
+    padding:60 px;
     position: absolute;
     left:0;
     bottom:0;
