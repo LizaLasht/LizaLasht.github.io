@@ -51,7 +51,7 @@
 	table { 
   	   margin-top:20px;
   	   margin: 0 auto; 
-  	   width: 600px;
+  	   width: 50%;
  	  border-spacing: 0;
   	  border: 2px solid gray;
   	  text-align: center;
@@ -60,14 +60,13 @@
     	  border: 2px gray;
           padding: 3px;
  	}
- 	tr:nth-child(2n) {
-  	  background: #3a774c; 
-  	  color: #fff;
- 	} 
- 	tr:nth-child(2n-1) {
-  	  background: #14ad42; 
- 	   color: #fff; 
- 	} 
+	th{
+    	   background-color: blue;
+	}
+	tr:nth-child(even){
+    	   background-color: yellow;
+	}
+ 
 	
 	div{
 	   width: 960px;
