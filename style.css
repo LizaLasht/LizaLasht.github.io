@@ -49,14 +49,11 @@
 	    margin-rigth:5px;
 	}
 	table { 
-  	   margin-top:20px;
-  	   margin: 0 auto; 
-  	   width: 50%;
- 	  border-spacing: 0;
-  	  border: 2px solid gray;
-  	  text-align: center;
+  	   border-collapse:collapse;
+           width:50%;
+           margin-bottom: 20px;
 	}
-	TD, TH, TR {
+	td, th, tr {
     	  border: 2px gray;
           padding: 3px;
  	}
