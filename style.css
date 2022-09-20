@@ -48,7 +48,26 @@
 	    float: left;
 	    margin-rigth:5px;
 	}
-	
+	table { 
+  	   margin-top:20px;
+  	   margin: 0 auto; 
+  	   width: 600px;
+ 	  border-spacing: 0;
+  	  border: 2px solid gray;
+  	  text-align: center;
+	}
+	TD, TH, TR {
+    	  border: 2px gray;
+          padding: 3px;
+ 	}
+ 	tr:nth-child(2n) {
+  	  background: #3a774c; 
+  	  color: #fff;
+ 	} 
+ 	tr:nth-child(2n-1) {
+  	  background: #14ad42; 
+ 	   color: #fff; 
+ 	} 
 	
 	div{
 	   width: 960px;
