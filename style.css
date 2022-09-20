@@ -64,8 +64,11 @@
 	th{
     	   background-color:#301c0c;
 	}
-	tr:nth-child(even){
+	tr:nth-child(2n){
     	   background-color: #edac7e;
+	}
+	tr:nth-child(even){
+    	   background-color: #caa885;
 	}
  
 	
