@@ -59,10 +59,7 @@
 	table, th, td{
    	 border: 1px solid black;
 	}
-	td, th, tr {
-    	  border: 2px white;
-          padding: 3px;
- 	}
+	
 	th{
     	   background-color:#301c0c;
 	   color:white;	
