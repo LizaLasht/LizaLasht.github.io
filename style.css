@@ -30,30 +30,46 @@
 	    padding-top:0%;
 	
 	}
+	#menu, #menu li {
 
-	ul#menu li{
-	 display:inline-block;
-	 text-align: center;
-	}
-	 #menu ul{
-	    list-style: none;
-	    margin:0;
-	    padding:20px;
-	}
-	#menu a{
-	    padding:20px;
-	    color:white;
-	    text-decoracion: none;
-	}
-	#menu a:hover{
-	    color:white;
-	    text-decoration: none;
-	}
+        margin: 0; /* убрать внутренние отступы */
+
+        padding: 0; /* убрать внешние отступы */
+
+    }
+
+    #menu {
+
+        background: #03658e; /* цвет фона навигационной панели */
+
+    }
+
+    #menu li{
+
+        display:inline-block; /* расположить пункты горизонтально */
+
+        text-align: center; /* текст горизонтально по центру */
+
+    }
+
+    #menu a {
+
+        display: block; /* ссылка растягивается на весь пункт li */
+
+        padding: 5px 15px; /* задаем внутренние отступы */
+
+        color: #fff; /* цвет текста */
+
+        text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+
+    }
+
+    #menu a:hover {
+
+        background: #8AB8CC; /* фон пунктов при наведении */
+
+    }
 	
-	#menu li{
-	    float: left;
-	    margin-rigth:5px;
-	}
 	table { 
 	   width:50%;
 	   text-align: center;
