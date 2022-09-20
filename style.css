@@ -31,43 +31,28 @@
 	
 	}
 	#menu, #menu li {
-
-        margin: 0; /* убрать внутренние отступы */
-
-        padding: 0; /* убрать внешние отступы */
-
+        margin: 0; 
+        padding: 0; 
     }
 
     #menu {
-
-        background: #03658e; /* цвет фона навигационной панели */
-
+        background: #301c0c; 
     }
 
     #menu li{
-
-        display:inline-block; /* расположить пункты горизонтально */
-
-        text-align: center; /* текст горизонтально по центру */
-
+        display:inline-block; 
+        text-align: center;
     }
 
     #menu a {
-
-        display: block; /* ссылка растягивается на весь пункт li */
-
-        padding: 5px 15px; /* задаем внутренние отступы */
-
-        color: #fff; /* цвет текста */
-
-        text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
-
+        display: block; 
+        padding: 5px 15px; 
+        color: white; 
+        text-decoration: none; 
     }
 
     #menu a:hover {
-
-        background: #8AB8CC; /* фон пунктов при наведении */
-
+        background: white; 
     }
 	
 	table { 
