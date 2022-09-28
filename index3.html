@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+  <html lang="ru">
+    
+<head>
+  <title>Lisa's website</title>
+  <link  href="style.css" rel="stylesheet" type="text/css">
+  </head>
+     <body>
+    <header>
+    <div>
+      <img id="monoLiza" src="https://www.clipartmax.com/png/full/387-3872500_logo-mona-lisa-logo-mona-lisa.png" alt="Лого вебсайта"/>
+      <text class="name"> Lisa's website </text>
+    </div>
+    </header>
 
+    <div>
+    <nav>
+      <ul id="menu">
+        <li><a href="#links" title="Список гиперссылок">Список гиперссылок</a></li>
+        <li><a href="#tablet" title="Таблица">Таблица</a></li>
+        <li><a href="#forma" title="Форма">Форма</a></li>
+    </ul>
+  </nav>
+ 
+    <h2>Cписок гиперссылок</h2>
+     <a id="links"></a>
+<ol>
+  <li><a href="http://example.com/">example</a></li>
+  <li><a href="https://example.com/">example</a></li>
+  <li><a href="ftp://example.com/document/file.txt">Cсылка на файл на сервере FTP без авторизации</a></li>
+  <li><a href="ftp://login:password@example.com/document/file.txt">Cсылка на файл на сервере FTP с авторизацией</a></li>
+  <li><a href="http://example.com#fragment">Ссылка на фрагмент страницы некоторого сайта</a></li>
+  <li><a id="fragment"></a><a href="#fragment">Cсылка на фрагмент текущей страницы</a></li>
+  <li><a href="http://example.com?page=1&perpage=15">Cсылка с двумя параметрами в URL</a></li>
+  <li>
+    <ul>
+      <li><a href="https://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">КубГУ</a></li>
+      <li><a href="https://www.kubsu.ru/ru/university/history-tradition" title="История и традиции Кубанского государственного университета">Традиции КубГУ</a></li>
+      <li><a href="https://www.kubsu.ru/ru/university/structure" title="Структура Кубанского государственного университета">Структура КубГУ</a></li>
+    </ul>
+  </li>
+  <li><a>https://moodle.kubsu.ru/</a></li>
+  <li><a href="">Cсылка с пустым href</a></li>
+  <li><a href="https://moodle.kubsu.ru/" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+  <li><a href="https://moodle.kubsu.ru/" rel="noindex">Ссылка, запрещенная для индексации поисковиками</a></li>
+  <li>Мы делаем задание по курсу WEB UI с сайта <a href="https://moodle.kubsu.ru/"> moodle</a></li>
+    
+  <li><a href="https://ru.wallpaper.mob.org/"> <img src="https://mobimg.b-cdn.net/v3/fetch/72/7231e770217a9a4eba81213c36b5593b.jpeg?h=600&r=0.5" 
+    alt="Eiffel Tower, Paris" width="300" height="600" /></a></li>
+    <li><img src="https://compress.ru/archive/cp/2003/12/10/46.jpg" usemap="#figures" alt="Ссылки из прямоугольных и круглых областей картинки">
+    <map name="figures">
+    <area href="https://ru.wikipedia.org/wiki/Прямоугольник" shape="rect" coords="236,61,368,221" alt="Прямоугольная область" title="Прямоугольник">
+    <area href="https://ru.wikipedia.org/wiki/Круг" shape="circle" coords="119,141,85" alt="Круглая область" title="Круг">
+    </map></li>
+  <li><a href="exemple">Относительная ссылка на страницу в текущем каталоге</a></li>
+  <li><a href="about/exemple">Относительная ссылка на страницу в каталоге about</a></li>
+  <li><a href="../exemple">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+  <li><a href="../../exemple">Относительная ссылка на страницу в каталоге двумя уровнями выше текущего</a></li>
+  <li><a href="/">Сокращенная ссылка на главную</a></li>
+  <li><a href="/exemple">Сокращенная ссылка на внутреннюю страницу</a></li> 
+</ol>  
+    <br>
+    <h2>Таблица</h2>
+      <a id="tablet"></a>
+      <table>
+        <thead>
+        <tr>
+          <th>Колонка 1</th>
+          <th>Колонка 2</th>
+          <th>Колонка 3</th>
+        </tr>
+          </thead>
+        <tbody>
+        <tr>
+          <td colspan="2">Ячейка 11 и 12</td>
+          <td>Ячейка 13</td>
+        </tr>
+        <tr>
+          <td>Ячейка 21</td>
+          <td>Ячейка 22</td>
+          <td>Ячейка 23</td>
+        </tr>
+        <tr>
+          <td>Ячейка 31</td>
+          <td colspan="2"> Ячейка 32 и 33</td>
+        </tr>
+        <tr>
+          <td>Ячейка 41</td>
+          <td>Ячейка 42</td>
+          <td>Ячейка 43</td>
+        </tr>
+        <tr>
+          <td>Ячейка 51</td>
+          <td>Ячейка 52</td>
+          <td>Ячейка 53</td>
+        </tr>
+          </tbody>
+      </table>
+    <h2>Форма</h2>
+    <a id="forma"></a>
+    <form action="exemple" method="POST">
+    <label>
+        Имя:<br/>
+    <input type="text"  name="field_name"  placeholder="Введите имя">
+    </label><br/>
+    <label>
+        email:<br/>
+    <input name="field-email" type="email" placeholder="Введите email">
+    </label><br/>
+        Дата рождения:<br/>
+      <label><input name="field-date" type="date" value="2003-07-29">
+     </label><br/>
+        Пол:<br/>
+    <label><input type="radio" name="radio-group-1"> Женщина </label> 
+    <label><input type="radio" name="radio-group-1"> Мужчина  
+    </label><br/>
+        Количество конечностей :<br/>
+    <label><input type="radio" name="radio-group-1"> 1 </label> 
+    <label><input type="radio" name="radio-group-1"> 2 </label> 
+    <label><input type="radio" name="radio-group-1"> 3 </label> 
+    <label><input type="radio" name="radio-group-1"> 4 </label><br/>
+    <label>
+        Сверхспособности:<br/>
+    <select name="field-name-2" multiple="multiple">
+    <option value="Значение1">Бессмертие</option>
+    <option value="Значение2">Прохождение сквозь стены</option>
+    <option value="Значение3">Левитация</option> </select>
+    </label><br/>
+    <label>  
+       Биография:<br/>
+    <textarea name="field-name-3" placeholder="Введите текст"> </textarea>
+    </label><br>
+    <label>
+        <input type="checkbox"  name="check"> С контрактом ознакомлен(а)
+    </label><br/>
+    <input type="submit" value="Отправить">
+    </form>
+    
+    </div>
+    <footer>
+      <div class="footer">(c)Лаштабега Елизавета, 2022
+      </div>
+    </footer>
+   
+</body>
+</html>
