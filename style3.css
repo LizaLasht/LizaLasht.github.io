@@ -109,7 +109,7 @@ width: 100%;
 padding-top: 0;
 }
 
-min-width: 1080px
+@media (min-width: 1080px)
 {
 .header{
 width: 960px;
