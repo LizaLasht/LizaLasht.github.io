@@ -1,12 +1,16 @@
 body {
-	    background-color:#f5f5dc;
-	}
-	header{
-   	 width: 100%;
+	background-color:#f5f5dc;
+	width: 100%;
+   	margin: 0;
+}
+header{
+        display: flex;
+        flex-direction: column;
+   	width: 100%;
     	height: 120px;
     	background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614343556_60-p-fon-knigi-svetlii-78.jpg);
-	}
-	.name{
+}
+.name{
 	font-family: mv boli ;	
    	font-size: 40px;
     	padding-top: 0;
@@ -14,157 +18,142 @@ body {
     	text-align:center;
     	float: left;
 	color: white;
-	}
-	
-	#monoLiza {
-	    width: 200px;
-	    height: 120px;
-	    float: left;
-	    margin-right: 10px;
-	}
-	
-	nav{
-	    height:19px;
-	    text-align: center; 
-	    background: #301c0c;
-	    margin: 0 auto; 
-	    padding-top:0%;
-	
-	}
-	#menu, #menu li {
+}
+#monoLiza {
+	width: 200px;
+	height: 120px;
+	float: left;
+	margin-right: 10px;
+}
+nav{
+	width:100%;
+	height:19px;
+	text-align: center; 
+	background: #301c0c; 
+	padding-top:0%;
+	display:flex;
+	flex-direction: column;
+}
+.bodycenter{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	align-items: center;
+}
+#menu, #menu li {
         margin: 0; 
         padding: 0; 
-    }
-
-    #menu {
+	text-align: center;
+}
+#menu {
         background: #301c0c; 
-    }
-
-    #menu li{
+}
+#menu li{
         display:inline-block; 
         text-align: center;
-    }
-
-    #menu a {
+}
+#menu a {
         display: block; 
         padding: 5px 15px; 
         color: white; 
         text-decoration: none; 
-    }
-
-    #menu a:hover {
+}
+#menu a:hover {
         background: #ffe9bd; 
-    }
-	
-	table { 
-	   width:50%;
-	   text-align: center;
-  	   border-collapse:collapse;
-           margin-bottom: 30px;
-	   color:black;
-	}
-	table, th, td{
-   	 border: 1px solid black;
-	}
-	
-	th{
-    	   background-color:#301c0c;
-	   color:white;	
-	}
-	tr:nth-child(2n-1){
-    	   background-color: #f2c8aa;
-	}
-	tr:nth-child(even){
-    	   background-color: #caa885;
-	}
+}
+table { 
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	border-collapse:collapse;
+	color:black;
+}
+table, th, td{
+	border: 1px solid black;
+	text-align: center;
+}
 
-	div{
-	   width: 960px;
-	   display: block;
-	   margin-left: auto;
-	   margin-right: auto;
-	}	
-
-	.footer{
-	    line-height:120px;
-	    font-size: 20 px;
-	    background: #301c0c;
-	    color: white;
-	    width: 100%;
-	    height: 120px;
-	    padding-left:40px;
-	}
-@media  (min-width: 1080px) {
-    .header{
+th{
+    	background-color:#301c0c;
+	color:white;	
+}
+tr:nth-child(2n-1){
+    	background-color: #f2c8aa;
+}
+tr:nth-child(even){
+    	background-color: #caa885;
+}
+.form{
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+	order:3;	
+}
+.list{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.list a{
+ 	font-size: 20px;
+}
+.list li{
+	margin-left: 40px;
+	justify-content: stretch;
+	align-items: stretch;
+}
+.footer{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	line-height:120px;
+	font-size: 20 px;
+	background: #301c0c;
+	color: white;
+	width: 100%;
+	padding-top: 0;
+}
+@media screen and (min-width: 800px) {
+header{
+	margin: auto;
         width: 960px;
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    nav{
-        text-align: center; /* пункты и текст горизонтально по центру */
-        background-color: #c9b2c9;
-        padding-top: 0%;
-    }
-    ul#menu li{
-        display:inline-block;
-        text-align: center;
-    }
-    #menu, #menu li {
-        margin: 0; /* убрать внутренние отступы */
-        padding: 0; /* убрать внешние отступы */
-    }
-    #menu a {
-        margin:10px;
-        padding: 10px 10px; /* задаем внутренние отступы */
-        color: #fff; /* цвет текста */
-        text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
-    }
-    #menu a:hover {
-        background: #1c04f1; /* фон пунктов при наведении */
-    }
-    .block{
+	align-items: center;
+        justify-content: center;
+	}
+   
+#menu, #menu li {
+	text-align: center;
+        margin: 0; 
+        padding: 0; 
+}
+#menu a {
+        padding: 10px 10px; 
+        text-decoration: none; 
+}
+.block{
         width:960px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-     }
-     table{
+}
+table{
+	 align-items: center;
+        justify-content: center;
         border-collapse:collapse;
         width:50%;
-        margin-bottom: 20px;
-    }
-    table, th, td{
-        border: 1px solid black;
-    }
-    .table th, td{
-        height:50px;
-        text-align: center;
-    }
-    th{
-        background-color: #eebef1;
-    }
-    tr:nth-child(even){
-        background-color: #d7d7d7;
-    }
-    .form{
-        width: 210pt;
-        border:3px solid black;
-        margin:0;
-        padding: 5px;
-        position: relative;
-        font-size: medium;
-    }
-    footer{
-        width: 100%;
-        height: 110px;
-        background-color:#d8bfd8;
-        background-image: url(https://abrakadabra.fun/uploads/posts/2022-02/1645600755_1-abrakadabra-fun-p-fon-goluboi-gradient-nezhnii-2.jpg);
-        margin: 0;
-        padding:0;
-        font-size: 16px;
-        font-family: 'Times New Roman', Times, serif;
-        padding-top: 0;
-        line-height: 100px;
-    }
+        order: 3;
+}
+.form{
+	display: flex;
+	order: 3;
+	width: 960px; 
+}
+footer{
+	display: flex;
+        width: 960px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+}
 }
