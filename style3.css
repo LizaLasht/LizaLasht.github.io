@@ -63,7 +63,8 @@ nav{
         background: #ffe9bd; 
 }
 table { 
-	display: flex;
+	
+	flex-direction: column;
 	border-collapse:collapse;
 	color:black;
 }
@@ -141,10 +142,10 @@ table{
 	align-items: center;
         justify-content: center;
         width:auto;
-        order: 3;
+        order: 2;
 }
 .forma{
-	order: 3;
+	order: 1;
 }
 .footer{
         width: 960px;
