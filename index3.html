@@ -1,19 +1,17 @@
 <!DOCTYPE html>
   <html lang="ru">
-    
 <head>
   <title>Lisa's website</title>
-  <link  href="style3.css" rel="stylesheet" type="text/css">
+  <link href="style3.css" rel="stylesheet" type="text/css">
   </head>
      <body>
     <header>
-    <div>
+    <div class="header">
       <img id="monoLiza" src="https://www.clipartmax.com/png/full/387-3872500_logo-mona-lisa-logo-mona-lisa.png" alt="Лого вебсайта"/>
       <text class="name"> Lisa's website </text>
     </div>
     </header>
-
-    <div>
+    <div class="bodycenter">
     <nav>
       <ul id="menu">
         <li><a href="#links" title="Список гиперссылок">Список гиперссылок</a></li>
@@ -21,7 +19,7 @@
         <li><a href="#forma" title="Форма">Форма</a></li>
     </ul>
   </nav>
- 
+ <div class="list">
     <h2>Cписок гиперссылок</h2>
      <a id="links"></a>
 <ol>
@@ -59,6 +57,8 @@
   <li><a href="/">Сокращенная ссылка на главную</a></li>
   <li><a href="/exemple">Сокращенная ссылка на внутреннюю страницу</a></li> 
 </ol>  
+      </div>
+      <div class="table">
     <br>
     <h2>Таблица</h2>
       <a id="tablet"></a>
@@ -94,8 +94,9 @@
           <td>Ячейка 52</td>
           <td>Ячейка 53</td>
         </tr>
-          </tbody>
+        </tbody>
       </table>
+     <div class="form">
     <h2>Форма</h2>
     <a id="forma"></a>
     <form action="exemple" method="POST">
@@ -135,12 +136,11 @@
     </label><br/>
     <input type="submit" value="Отправить">
     </form>
-    
+        </div>
     </div>
     <footer>
       <div class="footer">(c)Лаштабега Елизавета, 2022
       </div>
     </footer>
-   
 </body>
 </html>
