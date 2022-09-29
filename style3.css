@@ -64,7 +64,6 @@ nav{
 }
 table { 
 	display: flex;
-	flex-direction: column;
 	border-collapse:collapse;
 	color:black;
 }
