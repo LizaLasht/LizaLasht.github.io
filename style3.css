@@ -114,9 +114,8 @@ tr:nth-child(even){
 	width: 100%;
 	padding-top: 0;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1080px) {
 header{
-	margin: auto;
         width: 960px;
 	align-items: center;
         justify-content: center;
@@ -131,26 +130,23 @@ header{
         padding: 10px 10px; 
         text-decoration: none; 
 }
-.block{
+.bodycenter{
         width:960px;
         display: block;
         margin-left: auto;
         margin-right: auto;
 }
 table{
-	 align-items: center;
+	align-items: center;
         justify-content: center;
-        border-collapse:collapse;
-        width:50%;
+        width:auto;
         order: 3;
 }
 .forma{
 	display: flex;
 	order: 3;
-	width: 960px; 
 }
-footer{
-	display: flex;
+.footer{
         width: 960px;
         align-items: center;
         justify-content: center;
