@@ -59,6 +59,7 @@ background: #ffe9bd;
 table {
 display: flex;
 order:2;
+align-items: stretch;
 flex-direction: column;
 justify-content: stretch;
 color:black;
@@ -151,6 +152,6 @@ align-items: center;
 justify-content: center;
 }
 .footer{
-width: 100%;
+width: 960px;
 }
 }
