@@ -64,7 +64,6 @@ nav{
 }
 table { 
 	display: flex;
-	text-align: center;
 	flex-direction: column;
 	border-collapse:collapse;
 	color:black;
@@ -87,7 +86,6 @@ tr:nth-child(even){
 .forma{
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	order:3;	
 }
 .list{
@@ -115,7 +113,8 @@ footer{
 	padding-top: 0;
 }
 
-@media screen and (min-width: 1080px) {
+@media (min-width: 1080px)
+{
 .header{
         width: 960px;
 }
