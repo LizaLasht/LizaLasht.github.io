@@ -1,155 +1,152 @@
 body {
-	background-color:#f5f5dc;
+background-color:#f5f5dc;
 }
 .header{
-	width: 100%;
+width: 100%;
 }
 header{
-        display: flex;
-        flex-direction: column;
-   	width: 100%;
-    	height: 120px;
-    	background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614343556_60-p-fon-knigi-svetlii-78.jpg);
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 120px;
+background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614343556_60-p-fon-knigi-svetlii-78.jpg);
 }
 .name{
-	font-family: mv boli ;	
-   	font-size: 40px;
-    	padding-top: 0;
-	line-height:110px;
-    	text-align:center;
-    	float: left;
-	color: white;
+font-family: mv boli ;
+font-size: 40px;
+padding-top: 0;
+line-height:110px;
+text-align:center;
+float: left;
+color: white;
 }
 #monoLiza {
-	width: 200px;
-	height: 120px;
-	float: left;
-	margin-right: 10px;
+width: 200px;
+height: 120px;
+float: left;
+margin-right: 10px;
 }
 nav{
-	width:100%;
-	text-align: center; 
-	background: #301c0c; 
-	padding-top:0%;
-	display:flex;
-	flex-direction: column;
+width:100%;
+background: #301c0c;
+padding-top:0%;
+display:flex;
+flex-direction: column;
 }
 .bodycenter{
-	width:100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: stretch;
-	align-items: center;
+width:100%;
+display: flex;
+flex-direction: column;
+justify-content: stretch;
+align-items: center;
 }
 #menu, #menu li {
-        margin: 0; 
-        padding: 0; 
-	text-align: center;
+margin: 0;
+padding: 0;
+text-align: center;
 }
 #menu {
-        background: #301c0c; 
-}
-#menu li{
-        display:inline-block; 
-        text-align: center;
+background: #301c0c;
 }
 #menu a {
-        display: block; 
-        padding: 5px 15px; 
-        color: white; 
-        text-decoration: none; 
+padding: 5px 15px;
+color: white;
+text-decoration: none;
 }
 #menu a:hover {
-        background: #ffe9bd; 
+background: #ffe9bd;
 }
-table { 
-	
-	flex-direction: column;
-	border-collapse:collapse;
-	color:black;
+table {
+display: flex;
+order:2;
+flex-direction: column;
+justify-content: stretch;
+color:black;
 }
 table, th, td{
-	border: 1px solid black;
-	text-align: center;
+border: 1px solid black;
+text-align: center;
+border-collapse:collapse;
 }
 
 th{
-    	background-color:#301c0c;
-	color:white;	
+background-color:#301c0c;
+color:white;
 }
 tr:nth-child(2n-1){
-    	background-color: #f2c8aa;
+background-color: #f2c8aa;
 }
 tr:nth-child(even){
-    	background-color: #caa885;
+background-color: #caa885;
 }
 .forma{
-	display: flex;
-	flex-direction: column;
-	order:3;	
+display: flex;
+flex-direction: column;
+order:1;
 }
 .list{
-	display: flex;
-	flex-direction: column;
-	width: 100%;
+display: flex;
+flex-direction: column;
+width: 100%;
 }
 .list a{
- 	font-size: 20px;
+font-size: 20px;
 }
 .list li{
-	margin-left: 40px;
-	justify-content: stretch;
-	align-items: stretch;
+margin-left: 40px;
+justify-content: stretch;
+align-items: stretch;
 }
 footer{
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	line-height:120px;
-	font-size: 20 px;
-	background: #301c0c;
-	color: white;
-	width: 100%;
-	padding-top: 0;
+width: 100%;
+display: flex;
+flex-direction: row;
+line-height:120px;
+font-size: 20 px;
+background: #301c0c;
+color: white;
+width: 100%;
+padding-top: 0;
 }
 
-@media (min-width: 1080px)
+min-width: 1080px
 {
 .header{
-        width: 960px;
+width: 960px;
 }
 header{
-	align-items: center;
-        justify-content: center;
-	}
-   
+align-items: center;
+justify-content: center;
+}
+
 #menu, #menu li {
-	text-align: center;
-        margin: 0; 
-        padding: 0; 
+display: inline-block;
+text-align: center;
+margin: 0;
+padding: 0;
 }
 #menu a {
-        padding: 10px 10px; 
-        text-decoration: none; 
+padding: 10px 10px;
+text-decoration: none;
 }
 .bodycenter{
-        width:960px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+width:960px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 table{
-	align-items: center;
-        justify-content: center;
-        width:auto;
-        order: 2;
+align-items: center;
+justify-content: center;
+width:auto;
+order: 1;
 }
 .forma{
-	order: 1;
+order: 2;
 }
 .footer{
-        width: 960px;
-        align-items: center;
-        justify-content: center;
+width: 100%;
+align-items: center;
+justify-content: center;
 }
 }
