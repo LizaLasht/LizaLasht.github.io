@@ -3,50 +3,41 @@
     
 <head>
   <title>Lisa's website</title>
+  <link  href="style4.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <link  href="style4.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet"
   <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-    
-     <body>
-    <header>
-      <div class="container-fluid">
-      <div class="row d-flex mx-sm-m3">
-        <div class="col-md-9 order-2 px-sm-3">
-          <div class="h-100 py-3">
-          <main>
-      <img id="monoLiza" src="https://www.clipartmax.com/png/full/387-3872500_logo-mona-lisa-logo-mona-lisa.png" alt="Лого вебсайта">
-      <h1="name"> Lisa's website </h1>
-            <p>Добро пожаловать на сайт</p>
-            </main>
-          </div>
-    </div>
-        <div class="col-md-3 order-1 px-sm-3">
-          <div class="h-100 py-3">
-          <aside>
-          Сайдбар
-          </aside>
-          </div>
-        </div>
-      </div>
-    </div>
-    </header>
 
-    <div>
-    <nav>
-      <ul id="menu">
-        <li><a href="#links" title="Список гиперссылок">Список гиперссылок</a></li>
-        <li><a href="#tablet" title="Таблица">Таблица</a></li>
-        <li><a href="#forma" title="Форма">Форма</a></li>
-    </ul>
-  </nav>
- 
-    <h2>Cписок гиперссылок</h2>
-     <a id="links"></a>
+     <body>
+       <header class="text-left">
+            <div class="container-lg">
+                <H1><img id="monoLiza" src="https://www.clipartmax.com/png/full/387-3872500_logo-mona-lisa-logo-mona-lisa.png" alt="Лого вебсайта" 
+                         class="" width="100px"> Lisa's website </H1> 
+              <p>Добро пожаловать</p>
+            </div>       
+        </header>
+       
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-center"></div>
+            <div class="navbar">
+                <ul class="navbar-nav" id="menu">
+                    <li><a href="#links" title="Список гиперссылок">Список гиперссылок</a></li>
+                    <li><a href="#tablet" title="Таблица">Таблица</a></li>
+                    <li><a href="#forma" title="Форма">Форма</a></li>
+                </ul>
+            </div>
+        </nav>
+       
+<div class="container-lg">
+            <div class="row">
+                <div>
+            <h2 id="p1" class="text-center">Список гиперссылок</h2>
+
 <ol>
   <li><a href="http://example.com/">example</a></li>
   <li><a href="https://example.com/">example</a></li>
@@ -82,7 +73,10 @@
   <li><a href="/">Сокращенная ссылка на главную</a></li>
   <li><a href="/exemple">Сокращенная ссылка на внутреннюю страницу</a></li> 
 </ol>  
-    <br>
+</div>
+   
+    <div class="container d-flex mt-20 mb-20 p-10 flex-column-reverse bg-success rounded">
+         <div class="col-sm-6 order-sm-first order-last p-5 ">
     <h2>Таблица</h2>
       <a id="tablet"></a>
       <table>
@@ -119,49 +113,70 @@
         </tr>
           </tbody>
       </table>
-    <h2>Форма</h2>
-    <a id="forma"></a>
-    <form action="exemple" method="POST">
-    <label>
-        Имя:<br>
-    <input type="text"  name="field_name"  placeholder="Введите имя">
-    </label><br>
-    <label>
-        email:<br>
-    <input name="field-email" type="email" placeholder="Введите email">
-    </label><br>
-        Дата рождения:<br>
-      <label><input name="field-date" type="date" value="2003-07-29">
-     </label><br>
-        Пол:<br>
-    <label><input type="radio" name="radio-group-1"> Женщина </label> 
-    <label><input type="radio" name="radio-group-1"> Мужчина  
-    </label><br>
-        Количество конечностей :<br>
-    <label><input type="radio" name="radio-group-1"> 1 </label> 
-    <label><input type="radio" name="radio-group-1"> 2 </label> 
-    <label><input type="radio" name="radio-group-1"> 3 </label> 
-    <label><input type="radio" name="radio-group-1"> 4 </label><br>
-    <label>
-        Сверхспособности:<br>
-    <select name="field-name-2" multiple="multiple">
-    <option value="Значение1">Бессмертие</option>
-    <option value="Значение2">Прохождение сквозь стены</option>
-    <option value="Значение3">Левитация</option> </select>
-    </label><br>
-    <label>  
-       Биография:<br>
-    <textarea name="field-name-3" placeholder="Введите текст"> </textarea>
-    </label><br>
-    <label>
-        <input type="checkbox"  name="check"> С контрактом ознакомлен(а)
-    </label><br>
-    <input type="submit" value="Отправить">
-    </form>
-    
-    </div>
+              
+    <div class="col-sm-6 order-sm-last order-first p-5">
+            <form action="/" method="POST">
+               <a id="forma"></a>
+               <br>
+               <label> Введите имя:
+               <br >
+               <input name="field-name-1" value="имя" > </label>
+               <br>
+               <label> Текстовое поле email:
+               <br >
+               <input name="field-email" type="email" placeholder="Введите вашу почту" > </label>
+               <br>
+               <label> Текстовое поле даты:
+               <br >
+               <input name="field-date" value="2021-09-01" type="date" > </label>
+               <br> Пол:
+               <br >
+               <label>
+               <input type="radio" checked="checked" name="radio-group-1" value="Женский" > Женский</label>
+               <br>
+               <label>
+               <input type="radio" name="radio-group-1" value="Мужской" > Мужской</label>
+               <br>
+               <label>
+                  Мн выбор из списка:
+                  <br >
+                  <select name="field-name-4[]" multiple="multiple">
+                     <option value="Бессмертие">Бессмертие</option>
+                     <option value="Полет" selected="selected">Полет</option>
+                     <option value="Прохождение сквозь стены" selected="selected">Прохождение сквозь стены</option>
+                  </select>
+               </label>
+               <br> Конечности:
+               <br >
+               <label>
+               <input type="radio" checked="checked" name="radio-group-1" value="1" > 1</label>
+               <br>
+               <label>
+               <input type="radio" name="radio-group-1" value="2" > 2</label>
+               <br>
+               <label>
+               <input type="radio" name="radio-group-1" value="3" > 3</label>
+               <br>
+               <label>
+               <input type="radio" name="radio-group-1" value="4" > 4</label>
+               <br>
+               <label> Введите Биографию:
+               <br >
+               <textarea name="field-name-2">Биография</textarea>
+               </label>
+               <br>
+               <label>
+               C контрактом ознакомлен(а) 
+               <input type="checkbox" checked="checked" name="check-1" >
+               </label> <br>Кнопка отправки формы
+               <br>
+               <input type="submit" value="Отправить" > 
+            </form>
+         </div>
+      </div>
+  
     <footer>
-      <div class="footer">(c)Лаштабега Елизавета, 2022
+      <div class="container-lg"><h3>(c)Лаштабега Елизавета, 2022 </h3>
       </div>
     </footer>
    
