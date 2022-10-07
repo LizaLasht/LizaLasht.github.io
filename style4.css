@@ -33,15 +33,8 @@ body {
 	
 	table { 
 	   color:black;
-	}
-	table, th, td{
-   	 border: 1px solid black;
-	}
 	
-	th{
-    	   background-color:#301c0c;
-	   color:white;	
-	}
+	
 	tr:nth-child(2n-1){
     	   background-color: #f2c8aa;
 	}
