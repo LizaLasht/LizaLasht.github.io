@@ -12,33 +12,14 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-html {
-  font-size: 10px;
-}
-body {
-  font-size: 12pt;
-  padding: 10px;
-}
-main, aside {
-  background-color: #ddd;
-  padding: 10px;
-  font-family: serif;
-  height: 100%;
-}
-h1 {
-  margin-top: 15px;
-  font-size: 2em;
-  font-weight: bold;
-}
-   </style>
   </head>
     
     <body>
+      <header>
     <div class="container-fluid">
       <div class="row d-flex mx-sm-m3">
         <div class="col-md-9 order-2 px-sm-3">
-          <div class="h-100 py-3">
+          <div class="content m-auto">
           <main>
             <h1> Lisa's website </h1>
             <p>Добро пожаловать</p>
@@ -54,18 +35,29 @@ h1 {
         </div>
       </div>
     </div>
-  </body>
+</header>
         
-    <div>
-    <nav>
-      <ul id="menu">
-        <li><a href="#links" title="Список гиперссылок">Список гиперссылок</a></li>
+    <nav class="m-auto py-3">
+    <div class="container">
+        <div class="row d-flex order-2 text-md-center">
+            <div class="col-12 col-md-4">
+       <a href="#links" title="Список гиперссылок">Список гиперссылок</a>
+           </div> 
+          <div class="col-12 col-md-4">
         <li><a href="#tablet" title="Таблица">Таблица</a></li>
+            </div> 
+            <div class="col-12 col-md-4">
         <li><a href="#forma" title="Форма">Форма</a></li>
-    </ul>
+              </div> 
+   </div> 
+      </div> 
   </nav>
  
+      <div class="listOfLinks m-auto py-3 mb-3">
+    <div class="container">
+        <div class="row d-flex order-3">
     <h2>Cписок гиперссылок</h2>
+          <div class="col-12">
      <a id="links"></a>
 <ol>
   <li><a href="http://example.com/">example</a></li>
@@ -102,17 +94,25 @@ h1 {
   <li><a href="/">Сокращенная ссылка на главную</a></li>
   <li><a href="/exemple">Сокращенная ссылка на внутреннюю страницу</a></li> 
 </ol>  
-    <br>
+            </div>
+        </div>
+    </div>
+</div>
+      
+      
+   <div class="container">
+    <div class="row d-flex">
+        <div class="table1 col-12 m-auto my-3 py-3 order-2 order-md-1">
+          
     <h2>Таблица</h2>
       <a id="tablet"></a>
-      <table>
-        <thead>
+          <table class="m-auto">
         <tr>
           <th>Колонка 1</th>
           <th>Колонка 2</th>
           <th>Колонка 3</th>
         </tr>
-          </thead>
+          
         <tbody>
         <tr>
           <td colspan="2">Ячейка 11 и 12</td>
@@ -139,8 +139,12 @@ h1 {
         </tr>
           </tbody>
       </table>
+      </div>
+      
+      <div class="forma col-12 m-auto my-3 py-3 order-1 order-md-2">
     <h2>Форма</h2>
     <a id="forma"></a>
+     
     <form action="exemple" method="POST">
     <label>
         Имя:<br>
@@ -178,12 +182,17 @@ h1 {
     </label><br>
     <input type="submit" value="Отправить">
     </form>
-    
+     </div>
     </div>
-    <footer>
-      <div class="footer">(c)Лаштабега Елизавета, 2022
-      </div>
-    </footer>
+</div>
    
+        
+    <div class="container-fluid">
+    <div class="row d-flex pt-3">
+        <footer class="col-12 order-6 text-md-center">
+       <span>(c)Лаштабега Елизавета, 2022 </span>
+    </footer>
+    </div>
+    </div> 
 </body>
 </html>
