@@ -1,46 +1,24 @@
-<!--Разработать на JavaScript калькулятор стоимости заказа. Калькулятор должен содержать:
-- текстовое поле для ввода цены товара;
-- текстовое поле для ввода количества товара;
-- кнопка подсчета стоимости.
-При нажатии на кнопку на странце выводится стоимость заказа, рассчитываемая как произведение цены и количества.-->
-<script>
-    function click1() {
-    <p>Введите цену товара</p>
-      let f1 = document.getElementsByName("field1");
-      let f2 = document.getElementsByName("field2");
-      let r = document.getElementById("result");
-      r.innerHTML = f1[0].value + f2[0].value;
-      return false;
+function click()
+{
+    alert("click");
+    var result;
+    let f1=document.getElementsByName('field1');
+    let f2 =document.getElementsByName('field2');
+    let r1=document.getElementById('result');
+    const price=/^-?(0|[1-9]\d*)(\.[0-9]{1,4})?$/;
+    const k=/^(0|-?[1-9]\d{0,5})$/;
+    if( (!price.test(f1) && !k.test(f2) ))
+    { r1.innerHTML = "Введены некорректные данные";}
+    else if( !price.test(f1))  r1.innerHTML = "Введено неверное количество товара";
+    else if(!k.test(f2))  r1.innerHTML = "Введена неверная цена ";
+    else{ var result=f1*f2;
+        r1.innerHTML ="Стоимость заказа: "+ result;
     }
-    
-    </script>  
-    
-    <div id="result"></div>
-    <form>
-        <p>Введите цену товара</p>
-        <input name="field1" type="text">
-        <p>Введите количество товара</p>
-        <input name="field2" type="text">
-        <button id="button1" onclick="return click1();">OK</button>
-      
-    </form>
-    
-<script>
-    function onClick() {
-      alert("click");
-    }
-    
-    window.addEventListener('DOMContentLoaded', function (event) {
-      console.log("DOM fully loaded and parsed");
-      let b = document.getElementById("my-button");
-      b.addEventListener("click", onClick);
-    });
-    </script>  
-    
-    <button id="my-button">Рассчитать стоимость</button>
-    <script>
-        console.log("Hello World!");
-        alert("Hello World!");     
-        </script>
-        
-    
+    return false;
+}
+
+window.addEventListener('DOMContentLoaded', function (event) {
+    console.log("DOM fully loaded and parsed");
+    let b=document.getElementById("my-button");
+    b.addEventListener("click", click);
+});
