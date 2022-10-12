@@ -1,8 +1,8 @@
 function click()
 {
     var result;
-    let f1=document.getElementsById('field1').value;
-    let f2=document.getElementsById('field2').value;
+    let f1=document.getElementById('field1').value;
+    let f2=document.getElementById('field2').value;
     let r1=document.getElementById('result');
     const price=/^-?(0|[1-9]\d*)(\.[0-9]{1,4})?$/;
     const k=/^(0|-?[1-9]\d{0,5})$/;
