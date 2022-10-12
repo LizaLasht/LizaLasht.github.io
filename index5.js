@@ -1,6 +1,5 @@
 function click()
 {
-    alert("click");
     var result;
     let f1=document.getElementsById('field1').value;
     let f2 =document.getElementsById('field2').value;
