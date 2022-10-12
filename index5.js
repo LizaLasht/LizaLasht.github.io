@@ -20,6 +20,6 @@ function click()
 
 window.addEventListener('DOMContentLoaded', function (event) {
     console.log("DOM fully loaded and parsed");
-    let b=document.getElementById("my-button");
+    let b=document.getElementById("button1");
     b.addEventListener("click", click);
 });
