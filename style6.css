@@ -1,0 +1,27 @@
+:root {
+    --c1: rgba(172, 226, 230, 0.685);
+    color:rgb(30, 9, 80);
+  }
+  
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 80%;
+    margin-top: 10%;
+    background-color: var(--c1);
+    
+  }
+  
+  .flex-item {
+    padding-top: 5px;
+    gap: 15px;
+  }
+  
+  .flex-item-1,
+  .flex-item,
+  .container {
+    display: flex;
+  }
