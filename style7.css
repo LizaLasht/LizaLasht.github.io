@@ -9,6 +9,7 @@ background-image: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1626274
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 20%;
 }
 .slide {
   text-align: center;
