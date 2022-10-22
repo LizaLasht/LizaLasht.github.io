@@ -1,5 +1,5 @@
 body{
-background-image: url(https://raruk.ru/upload/iblock/891/891b19fea24e4dec711e1f92f1bd7827.jpeg);
+background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613047479_55-p-oranzhevii-fon-odnotonnii-pastelnii-62.jpg);
 }
 .photo{
     width:180px;
@@ -7,7 +7,7 @@ background-image: url(https://raruk.ru/upload/iblock/891/891b19fea24e4dec711e1f9
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 10%;
+    padding-left: 20px;
     border-radius: 15%;
  }
 .slide {
