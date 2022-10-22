@@ -19,12 +19,10 @@ h2 {
   font-family: courier;
 }
 .rev_slider{
-   margin: 0 auto;
+  margin: 0 auto;
   padding: 10px;
   margin-top: 15%;
   width: 95%;
   height: 50vh;
-  background-color: bisque;
-  border: 5px solid aqua;
   outline: none;
 }
