@@ -6,6 +6,7 @@ background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/
     height:180px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 10%;
     border-radius: 15%;
 }
