@@ -4,12 +4,12 @@ padding: 60px;
 background-image: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1626274320_18-kartinkin-com-p-sero-bezhevii-fon-krasivo-18.jpg);
 }
 .photo{
-    width:100px;
+    width:180px;
     height:180px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 20%;
+    border-radius: 15%;
 }
 .slide {
   text-align: center;
