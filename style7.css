@@ -1,13 +1,25 @@
 body{
 font-family: Arial;
+color:brown;
 padding: center;
-background-image: url(https://mobimg.b-cdn.net/v3/fetch/39/39924baed17a01b61ca1d89412ea6d22.jpeg);
+background-image: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1626274320_18-kartinkin-com-p-sero-bezhevii-fon-krasivo-18.jpg);
 }
 .photo{
-    width:80px;
-    height:80px;
+    width:1800px;
+    height:180px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
+.slide {
+  text-align: center;
+}
+h2 {
+  padding: 10%;
+  color:black;
+}
+.rev_slider{
+  margin: 0 auto;
+  padding: 10px;
+  outline: brown;
+}
