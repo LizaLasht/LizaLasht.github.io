@@ -1,5 +1,4 @@
 body{
-font-family: Arial, Helvetica, sans-serif;
 padding: 60px;
 background-image: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1626274320_18-kartinkin-com-p-sero-bezhevii-fon-krasivo-18.jpg);
 }
@@ -17,6 +16,7 @@ background-image: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1626274
 h2 {
   padding: 10%;
   color:black;
+  font-family: courier;
 }
 .rev_slider{
    margin: 0 auto;
