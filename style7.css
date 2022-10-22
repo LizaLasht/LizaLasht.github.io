@@ -6,7 +6,7 @@ background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/
     height:180px;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    padding: 10%;
     border-radius: 15%;
 }
 .slide {
@@ -23,5 +23,4 @@ h2 {
   margin-top: 15%;
   width: 95%;
   height: 50vh;
-  outline: none;
 }
