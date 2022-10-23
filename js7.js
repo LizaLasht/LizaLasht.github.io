@@ -1,5 +1,6 @@
  $(document).ready(function () {
      $('.rev_slider').slick({  
+    fade:true,
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 4,
