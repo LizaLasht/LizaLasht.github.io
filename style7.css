@@ -27,6 +27,7 @@ h2 {
   height: 50vh;
 }
 .slick-dots li button:before{
-    font-size:20px;
+    font-size:15px;
     background-color:#000;
+    padding: 10%;
 }
