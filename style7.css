@@ -30,3 +30,11 @@ h2 {
     font-size:15px;
     background-color:#000;
 }
+
+@media (min-width: 1080px)
+{
+.photo{
+    width:100px;
+    height:100px;
+ }
+}
