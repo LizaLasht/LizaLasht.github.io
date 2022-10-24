@@ -1,4 +1,4 @@
-function click1()
+function click1(event)
 {
     var result;
     let f1=document.getElementById('field1').value;
@@ -14,6 +14,7 @@ function click1()
     { result=f1*f2;
         r1.innerHTML ="Стоимость заказа: "+ result;
     }
+    event.preventDefault();
     return false;
 }
 
