@@ -15,7 +15,6 @@ function click1(event)
         r1.innerHTML ="Стоимость заказа: "+ result;
     }
     event.preventDefault();
-    return false;
 }
 
 window.addEventListener('DOMContentLoaded', function (event) {
