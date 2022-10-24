@@ -31,10 +31,4 @@ h2 {
     background-color:#000;
 }
 
-@media (min-width: 480px)
-{
-.photo{
-    width:100px;
-    height:100px;
- }
-}
+
