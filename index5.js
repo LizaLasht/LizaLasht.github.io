@@ -1,4 +1,4 @@
-function click()
+function click1()
 {
     var result;
     let f1=document.getElementById('field1').value;
@@ -20,5 +20,5 @@ function click()
 window.addEventListener('DOMContentLoaded', function (event) {
     console.log("DOM fully loaded and parsed");
     let b=document.getElementById("button1");
-    b.addEventListener("click", click);
+    b.addEventListener("click", click1);
 });
