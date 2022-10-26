@@ -8,8 +8,8 @@ function click1(event)
     const k=/^(0|-?[1-9]\d{0,5})$/;
     if( (!price.test(f1) && !k.test(f2) ))
     { r1.innerHTML = "Введены некорректные данные";}
-    else if( !price.test(f1))  r1.innerHTML = "Введено неверное количество товара";
-    else if(!k.test(f2))  r1.innerHTML = "Введена неверная цена ";
+    else if( !price.test(f1))  r1.innerHTML = "Введена неверная цена";
+    else if(!k.test(f2))  r1.innerHTML = "Введено неверное количество товара";
     else
     { result=f1*f2;
         r1.innerHTML ="Стоимость заказа: "+ result;
