@@ -2,8 +2,8 @@ body{
 background-image: url(https://raruk.ru/upload/iblock/891/891b19fea24e4dec711e1f92f1bd7827.jpeg);
 }
 .photo{
-    width:180px;
-    height:180px;
+    width:100px;
+    height:100px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
